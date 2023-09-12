@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hej!");
             Console.Write("Välj en siffra: ");
             int x = Convert.ToInt32(Console.ReadLine());
             while (x < 1 || x >= 100)
